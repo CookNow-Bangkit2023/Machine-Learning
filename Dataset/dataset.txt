@@ -1,0 +1,3 @@
+Download and extract in this folder!
+
+https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions/data?select=interactions_test.csv
