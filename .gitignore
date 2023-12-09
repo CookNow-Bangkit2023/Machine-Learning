@@ -1,0 +1,8 @@
+# unzipped dataset
+*.csv
+dataset/archive.zip
+dataset/ingr_map.pkl
+
+# dump files
+Model/dump
+Model/rankingModel/export
