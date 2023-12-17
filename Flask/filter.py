@@ -1,12 +1,7 @@
 import tensorflow as tf
 import numpy as np
 import json
-
-# def get_input():
-#     user_input = input("Masukkan bahan-bahan pisah dengan (, ) : ")
-#     return user_input.split(", ")
-
-# def get_recipes(recipes):
+import random
 
 # Filtering Process
 def filter_recipe(user_input, recipes):
@@ -22,6 +17,8 @@ def filter_recipe(user_input, recipes):
 def predict(user_input, recipes):
     user_input = user_input
     reccomendation = filter_recipe(user_input, recipes)
+
+    random.shuffle(reccomendation)
 
     if reccomendation:
         return reccomendation[0:10]
